@@ -1,14 +1,81 @@
-p{
-    color: red;
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
+li{
+    float: left;
+    display: block;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.top{
+    position: relative;
+    top: 8px;
+}
+
+li:hover{
+    text-decoration: underline
+}
+
+align-right{
+    float: right;
+}
 
 #gal{
-    width: 5vw;
+    width: 30px;
     height: auto;
     border-radius: 50%;
+    vertical-align: middle;
+}
+
+.center-container{
+    padding-top: 20vh;
+    height: 200px;
+    position: relative;
+    text-align: center;
 }
 
 #logo{
-    border-style: dotted;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form{
+    margin-top: 3vh;
+}
+
+input{
+    line-height: 4vh;
+    border-radius: 25px;
+    border-style: solid;
+}
+
+.buttons{
+    padding-top: 3vh;
+}
+
+button{
+    border-style: none;
+    background-color: rgb(241, 241, 241);
+    height: 3.5vh;
+    margin-right: 4px;
+    border-radius: 4px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: rgb(107, 107, 107);
+    background-color: rgb(241, 241, 241);
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.align-right{
+    float:right;
 }
